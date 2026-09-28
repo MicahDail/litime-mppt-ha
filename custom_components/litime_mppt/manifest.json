@@ -1,0 +1,18 @@
+{
+  "domain": "litime_mppt",
+  "name": "LiTime MPPT",
+  "bluetooth": [
+    {
+      "connectable": true,
+      "local_name": "BT-LTMPPT*"
+    }
+  ],
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["bleak", "bleak_retry_connector"],
+  "requirements": ["bleak-retry-connector>=3.5.0"],
+  "version": "0.1.0"
+}

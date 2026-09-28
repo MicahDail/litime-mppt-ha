@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LiTime MPPT",
+        "description": "Select the charge controller to add.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "LiTime MPPT",
+        "description": "Do you want to set up {name}?"
+      }
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "no_devices_found": "No LiTime MPPT controllers found. Confirm the Bluetooth proxy can see BT-LTMPPT* and that the phone app is disconnected.",
+      "not_supported": "This Bluetooth device is not a supported LiTime MPPT."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_voltage": { "name": "Battery voltage" },
+      "battery_current": { "name": "Battery current" },
+      "battery_power": { "name": "Battery power" },
+      "battery_soc": { "name": "Battery" },
+      "controller_temperature": { "name": "Controller temperature" },
+      "load_voltage": { "name": "Load voltage" },
+      "load_current": { "name": "Load current" },
+      "load_power": { "name": "Load power" },
+      "pv_voltage": { "name": "PV voltage" },
+      "max_charge_power": { "name": "Max charging power today" },
+      "energy_today": { "name": "Energy today" },
+      "total_energy": { "name": "Total energy" },
+      "running_days": { "name": "Running days" },
+      "rssi": { "name": "RSSI" }
+    },
+    "switch": {
+      "dc_load": { "name": "DC load" }
+    }
+  }
+}
