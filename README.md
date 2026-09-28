@@ -18,7 +18,7 @@ Protocol mapping comes from [mavenius/litime_mppt_esphome](https://github.com/ma
 ### HACS (custom repository)
 
 1. HACS → Integrations → ⋮ → Custom repositories
-2. URL: this GitHub repository  
+2. URL: https://github.com/MicahDail/litime-mppt-ha  
    Category: Integration
 3. Download **LiTime MPPT**
 4. Restart Home Assistant
